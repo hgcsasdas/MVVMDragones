@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "211638059666",
+    "project_id": "primeraconexionfirebase-22129",
+    "storage_bucket": "primeraconexionfirebase-22129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211638059666:android:aa9a686fc495f80b4a5c4b",
+        "android_client_info": {
+          "package_name": "com.example.DragonesMVVM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLfYX9WZ3cy4csWWFL0W5PdYEekj6-oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211638059666:android:7c1707b3f09f98da4a5c4b",
+        "android_client_info": {
+          "package_name": "com.example.dragonesmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLfYX9WZ3cy4csWWFL0W5PdYEekj6-oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211638059666:android:7effa3b1e7ab5eb84a5c4b",
+        "android_client_info": {
+          "package_name": "com.example.primeraConexionFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLfYX9WZ3cy4csWWFL0W5PdYEekj6-oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211638059666:android:a195cd1ea4f79cce4a5c4b",
+        "android_client_info": {
+          "package_name": "com.example.primeraconexionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLfYX9WZ3cy4csWWFL0W5PdYEekj6-oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211638059666-cun97osbfhn374ctmc4ua9umvih7n5uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
