@@ -1,5 +1,6 @@
 package com.example.primeraconexionfirebase.screens
 
+import android.annotation.SuppressLint
 import android.view.View
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -25,6 +26,7 @@ import com.example.primeraconexionfirebase.model.ViewModel
 import com.example.primeraconexionfirebase.navigation.PantallasApp
 import com.google.firebase.firestore.FirebaseFirestore
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun ConsultarDragon(navController: NavController, ViewModel: ViewModel) {
     ViewModel.limpiarCampos()
@@ -71,8 +73,7 @@ fun ConsultarUnDragon(ViewModel: ViewModel){
     val peso_dragon by ViewModel.peso_dragon.observeAsState(initial = "")
     val genero_dragon by ViewModel.genero_dragon.observeAsState(initial = "")
 
-    var nombre_busqueda by remember { mutableStateOf("") }
-    val field_busqueda ="nombre"
+    val nombre_busqueda by ViewModel.nombre_busqueda.observeAsState(initial = "")
 
     Column(
 
@@ -95,7 +96,7 @@ fun ConsultarUnDragon(ViewModel: ViewModel){
 
         OutlinedTextField(
             value = nombre_busqueda,
-            onValueChange = { nombre_busqueda = it },
+            onValueChange = { ViewModel.onCompleteBusqueda(nombre_busqueda = it) },
             label = { Text("Introduce el Dragon a consultar") },
             modifier = Modifier.fillMaxWidth(),
             singleLine = true,
@@ -119,7 +120,7 @@ fun ConsultarUnDragon(ViewModel: ViewModel){
                     ViewModel.limpiarCampos()
                     // HACEMOS LA CONSULTA A LA COLECCION CON GET
                     db.collection(nombre_coleccion)
-                        .whereEqualTo(field_busqueda,nombre_busqueda)
+                        .whereEqualTo("nombre",nombre_busqueda)
                         .get()
 
                         //SI SE CONECTA CORRECTAMENTE

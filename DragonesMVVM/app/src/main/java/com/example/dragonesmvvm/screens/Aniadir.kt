@@ -1,5 +1,6 @@
 package com.example.primeraconexionfirebase.screens
 
+import android.annotation.SuppressLint
 import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -31,6 +32,7 @@ import androidx.compose.ui.unit.sp
 import com.example.primeraconexionfirebase.model.ViewModel
 
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun Aniadir(navController: NavController, ViewModel: ViewModel){
     ViewModel.limpiarCampos()

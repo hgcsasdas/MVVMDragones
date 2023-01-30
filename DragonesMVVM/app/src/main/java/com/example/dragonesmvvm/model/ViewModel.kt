@@ -21,6 +21,9 @@ open class ViewModel: ViewModel() {
     private val _genero_dragon  = MutableLiveData<String>()
     val genero_dragon : LiveData<String> = _genero_dragon
 
+    private val _nombre_busqueda  = MutableLiveData<String>()
+    val nombre_busqueda : LiveData<String> = _nombre_busqueda
+
     private val _isButtonEnable =MutableLiveData<Boolean>()
     val isButtonEnable: LiveData<Boolean> = _isButtonEnable
 
@@ -35,6 +38,10 @@ open class ViewModel: ViewModel() {
 
     fun onCompleteNombre(nombre_dragon:String){
         _nombre_dragon.value = nombre_dragon
+    }
+
+    fun onCompleteBusqueda(nombre_busqueda: String){
+        _nombre_busqueda.value = nombre_busqueda
     }
 
     fun limpiarCampos() {
